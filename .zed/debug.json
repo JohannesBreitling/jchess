@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Debug jchess",
+    "adapter": "go",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/main.go",
+  },
+]
