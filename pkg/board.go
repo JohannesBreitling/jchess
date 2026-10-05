@@ -111,7 +111,6 @@ func (b *Board) Move(move LegalMove) int {
 	}
 
 	// TODO: Check Draws...
-	// - 50 Moves without Capture or Pawn Move -> done
 	// - Repetition of same position >= 3
 	// - Insufficient Material
 
@@ -269,8 +268,6 @@ func DefaultBoard() Board {
 	board.LastTo = 64
 
 	board.MoveCount = 0
-
-	fmt.Println("Finished board creation")
 
 	return board
 }

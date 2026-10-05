@@ -1,7 +1,6 @@
 package pkg
 
 import (
-	"fmt"
 	"image/color"
 	"image/png"
 	"log"
@@ -101,10 +100,6 @@ func (d *Drawer) drawCheck(screen *ebiten.Image) {
 	if !(d.Board.WhiteInCheck || d.Board.BlackInCheck) {
 		return
 	}
-
-	fmt.Println("Whites Turn", d.Board.WhitesTurn)
-	fmt.Println("White in Check:", d.Board.WhiteInCheck)
-	fmt.Println("Black in Check:", d.Board.BlackInCheck)
 
 	// Get the kings position
 	var board Bitboard
