@@ -1,6 +1,8 @@
 # jchess
 Simple chess implementation written in go with a gui powered by ebitengine.
 
+![image](./jchess.png)
+
 ## Usage
 
 **Go Environment**
